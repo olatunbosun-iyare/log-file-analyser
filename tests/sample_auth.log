@@ -1,0 +1,9 @@
+Dec 28 10:00:01 server sshd[1234]: Failed password for invalid user admin from 192.168.1.100 port 22 ssh2
+Dec 28 10:00:05 server sshd[1235]: Failed password for invalid user admin from 192.168.1.100 port 22 ssh2
+Dec 28 10:00:10 server sshd[1236]: Failed password for invalid user admin from 192.168.1.100 port 22 ssh2
+Dec 28 10:05:00 server sudo: bob : command not allowed ; TTY=pts/1 ; PWD=/home/bob ; USER=root ; COMMAND=/bin/bash
+Dec 28 10:10:00 server kernel: [ 1000.000000] UFW BLOCK IN=eth0 OUT= MAC=... SRC=10.0.0.5 DST=192.168.1.200 PROTO=TCP SPT=12345 DPT=22
+Dec 28 10:10:01 server kernel: [ 1000.000000] UFW BLOCK IN=eth0 OUT= MAC=... SRC=10.0.0.5 DST=192.168.1.200 PROTO=TCP SPT=12345 DPT=80
+Dec 28 10:10:02 server kernel: [ 1000.000000] UFW BLOCK IN=eth0 OUT= MAC=... SRC=10.0.0.5 DST=192.168.1.200 PROTO=TCP SPT=12345 DPT=443
+Dec 28 10:10:03 server kernel: [ 1000.000000] UFW BLOCK IN=eth0 OUT= MAC=... SRC=10.0.0.5 DST=192.168.1.200 PROTO=TCP SPT=12345 DPT=8080
+Dec 28 10:15:00 server root: COMMAND=rm -rf /
